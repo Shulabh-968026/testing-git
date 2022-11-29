@@ -4,3 +4,8 @@
     box-sizing: border-box;
     background-color: gray;
 }
+h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
