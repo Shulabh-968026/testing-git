@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+p{
+    font-size: 45px;
+    font-style: italic;
+    margin: 50px 0;
+    text-align: center;
+    text-shadow: 10px 5px 5px red;
+}
+
+p::first-letter{
+    font-size: 100px;
+    font-weight: bold;
+    transition: 0.2s all;
+}
+p:hover{
+    transform: scale(0.8);
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 50px 30px;
+    background-color: blue;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+
+.btn:hover{
+    outline: none;
+    cursor: pointer;
+    box-shadow: inset 0px 3px 5px rgb(83, 83, 239, 0.6);
+    transition: .2s all ease;
+    animation-name: roundAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.btn:active{
+    transform: scale(0.7);
+    background-color: blueviolet;
+}
+
+@keyframes roundAnimation {
+    from{
+        transform: rotate(0degree);
+        border: 10px solid green;
+    }
+    to{
+        transform: rotate(360degree);
+        border: 10px solid lightgreen;
+    }
+}
+
+/* p::before{
+    content: "";
+    display: block;
+    width: 250px;
+    height: 10px;
+    margin: 5px auto;
+    background-color: black;
+}
+
+p::after{
+    content:"";
+    display: block;
+    width: 250px;
+    height: 10px;
+    margin: 10px auto ;
+    background-color: black;
+} */

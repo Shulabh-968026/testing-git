@@ -2,7 +2,41 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-<<<<<<< HEAD
+}
+
+
+.main-container{
+    width: 800px;
+    height: 500px;
+    border: 2px solid yellow;
+}
+
+.sub-container{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    animation-name: sub-container-move;
+    /* animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; */
+}
+
+@keyframes sub-container-move {
+    0%{
+        transform: translate(0px,0px);
+    }
+    25%{
+        transform: translate(697px,0px);
+    }
+    50%{
+        transform: translate(697px,397px);
+    }
+    75%{
+        transform: translate(0px,397px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
 }
 
 body{
@@ -125,12 +159,4 @@ body{
         opacity: 1;
         transform: translate(0);
       }   
-=======
-    background-color: gray;
-}
-h1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
->>>>>>> main
 }
