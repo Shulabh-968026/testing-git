@@ -19,3 +19,17 @@ def good_evening():
     print("Good evening")
 
 good_evening()
+
+def good_noon():
+    print("Good noon")
+
+good_noon()
+
+
+
+
+
+
+
+
+
