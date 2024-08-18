@@ -5,12 +5,17 @@ def greet():
 
 greet()
 
-
 def good_night():
     print("Good Night Everyone")
 
 good_night()
 
+def good_morning():
+    print("Good Monring Everyone")
 
+good_morning()
 
+def good_evening():
+    print("Good evening")
 
+good_evening()
