@@ -15,4 +15,7 @@ def good_morning():
 
 good_morning()
 
+def good_evening():
+    print("Good evening")
 
+good_evening()
