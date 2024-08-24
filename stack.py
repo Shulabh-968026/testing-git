@@ -15,3 +15,9 @@ class Stack:
             self.stack.append(val)
         else:
             print("Stack is Overflow!!")
+
+    def pop(self):
+        if self.isEmpty():
+            print("Stack is underflow!!")
+        else:
+            self.stack.pop()
