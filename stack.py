@@ -9,3 +9,12 @@ class Stack:
             return False
         else:
             return True
+<<<<<<< HEAD
+=======
+
+    def push(self,val):
+        if self.isEmpty():
+            self.stack.append(val)
+        else:
+            print("Stack is Overflow!!")
+>>>>>>> f331a52 (fix: add queue and update stack)
