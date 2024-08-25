@@ -10,3 +10,10 @@ class Queue:
             return False
         else:
             return True
+
+    def push(self,val):
+        if self.isEmpty():
+            self.queue.append(val)
+        else:
+            print("Queue is overflow!!")
+
