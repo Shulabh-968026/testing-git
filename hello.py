@@ -2,6 +2,9 @@
 
 print("Hello World")
 print("Hello World")
+print("Good Morning")
+print("Good Morning")
+print("Good Morning")
 
 def greet():
     print("Good Morning ma'am")
