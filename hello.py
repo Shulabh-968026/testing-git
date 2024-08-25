@@ -5,6 +5,13 @@ print("Hello World")
 print("Good Morning")
 print("Good Morning")
 print("Good Morning")
+print("Hello World")
+
+print("Hello World")
+print("Hello World")
+print("Hello World")
+print("Hello World")
+print("Hello World")
 
 def greet():
     print("Good Morning ma'am")
