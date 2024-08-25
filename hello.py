@@ -1,5 +1,9 @@
 #! /usr/bin/python3
 
+print("Good Morning")
+print("Good Morning")
+print("Good Morning")
+
 def greet():
     print("Good Morning ma'am")
 
