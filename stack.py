@@ -21,3 +21,9 @@ class Stack:
             print("Stack is underflow!!")
         else:
             self.stack.pop()
+
+    def top(self):
+        if self.isEmpty():
+            print("Stack is underflow!!")
+        else:
+            print(f"top value of stack::{self.stack[-1]}")
