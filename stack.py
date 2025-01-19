@@ -27,3 +27,8 @@ class Stack:
             print("Stack is underflow!!")
         else:
             print(f"top value of stack::{self.stack[-1]}")
+
+st = Stack(100)
+st.push(10)
+st.push(20)
+st.push(30)
